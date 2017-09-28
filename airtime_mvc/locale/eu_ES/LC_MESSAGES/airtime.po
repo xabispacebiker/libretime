@@ -1,35 +1,35 @@
-# EUSKERA (es_EU) translation for Airtime.
+# EUSKERA (eu_ES) translation for Airtime.
 # Copyright (C) 2012 Sourcefabric
 # This file is distributed under the same license as the Airtime package.
 # Sourcefabric <contact@sourcefabric.org>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: Airtime 2.5\n"
+"Project-Id-Version: Libretime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-13 12:58-0500\n"
-"PO-Revision-Date: 2013-12-13 13:01-0500\n"
-"Last-Translator: Denise Rigato <denise.rigato@sourcefabric.org>\n"
-"Language-Team: Euskera Localization <contact@sourcefabric.org>\n"
-"Language: Euskera\n"
+"POT-Creation-Date: 2017-03-24 16:23+0000\n"
+"PO-Revision-Date: 2017-07-19 15:51+0000\n"
+"Last-Translator: Xabier Arrabal <xabierarrabal@gmail.com>\n"
+"Language-Team: Basque (Euskal Herria) (http://www.transifex.com/sourcefabric/airtime/language/es_ES/)\n"
+"Language: eu_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: airtime_mvc/application/common/DateHelper.php:213
 #, php-format
 msgid "The year %s must be within the range of 1753 - 9999"
-msgstr "El año %s debe estar dentro del rango de 1753-9999"
+msgstr "%s urtea 1753 - 9999aren eremuaren barruan egon behar da"
 
 #: airtime_mvc/application/common/DateHelper.php:216
 #, php-format
 msgid "%s-%s-%s is not a valid date"
-msgstr "%s-%s-%s no es una fecha válida"
+msgstr "%s-%s-%s ez da baliozko data"
 
 #: airtime_mvc/application/common/DateHelper.php:240
 #, php-format
 msgid "%s:%s:%s is not a valid time"
-msgstr "%s:%s:%s no es una hora válida"
+msgstr "%s:%s:%s ez da baliozko ordua"
 
 #: airtime_mvc/application/common/LocaleHelper.php:26
 msgid "English"
@@ -573,7 +573,7 @@ msgstr ""
 
 #: airtime_mvc/application/common/Timezone.php:21
 msgid "Use station default"
-msgstr "Usar el valor predeterminado de la estación"
+msgstr "Erabili irratiko lehenetsita"
 
 #: airtime_mvc/application/common/UsabilityHints.php:66
 msgid "Upload some tracks below to add them to your library!"
@@ -635,7 +635,7 @@ msgstr "Radio Web"
 
 #: airtime_mvc/application/configs/navigation.php:32
 msgid "Calendar"
-msgstr "Calendario"
+msgstr "Egutegia"
 
 #: airtime_mvc/application/configs/navigation.php:40
 msgid "Widgets"
@@ -686,7 +686,7 @@ msgstr "Estado"
 
 #: airtime_mvc/application/configs/navigation.php:111
 msgid "Analytics"
-msgstr "Estadísticas"
+msgstr "Estatistikak"
 
 #: airtime_mvc/application/configs/navigation.php:120
 #: airtime_mvc/application/views/scripts/playouthistory/index.phtml:2
@@ -1114,7 +1114,7 @@ msgstr "Listas de reproducción"
 #: airtime_mvc/application/services/HistoryService.php:1172
 #: airtime_mvc/application/views/scripts/schedule/show-content-dialog.phtml:6
 msgid "Title"
-msgstr "Título"
+msgstr "Titulua"
 
 #: airtime_mvc/application/controllers/LocaleController.php:76
 #: airtime_mvc/application/forms/SmartBlockCriteria.php:60
@@ -1125,7 +1125,7 @@ msgstr "Título"
 #: airtime_mvc/application/views/scripts/podcast/station.phtml:26
 #: airtime_mvc/application/views/scripts/schedule/show-content-dialog.phtml:7
 msgid "Creator"
-msgstr "Creador"
+msgstr "Egilea"
 
 #: airtime_mvc/application/controllers/LocaleController.php:77
 #: airtime_mvc/application/forms/SmartBlockCriteria.php:51
@@ -1133,7 +1133,7 @@ msgstr "Creador"
 #: airtime_mvc/application/services/HistoryService.php:1117
 #: airtime_mvc/application/views/scripts/schedule/show-content-dialog.phtml:8
 msgid "Album"
-msgstr "Álbum"
+msgstr "Bilduma"
 
 #: airtime_mvc/application/controllers/LocaleController.php:78
 msgid "Bit Rate"
@@ -1151,14 +1151,14 @@ msgstr "BPM"
 #: airtime_mvc/application/services/HistoryService.php:1122
 #: airtime_mvc/application/services/HistoryService.php:1176
 msgid "Composer"
-msgstr "Compositor"
+msgstr "Konpositorea"
 
 #: airtime_mvc/application/controllers/LocaleController.php:81
 #: airtime_mvc/application/forms/SmartBlockCriteria.php:55
 #: airtime_mvc/application/models/Block.php:1361
 #: airtime_mvc/application/services/HistoryService.php:1127
 msgid "Conductor"
-msgstr "Director"
+msgstr "Gidaria"
 
 #: airtime_mvc/application/controllers/LocaleController.php:82
 #: airtime_mvc/application/forms/SmartBlockCriteria.php:56
@@ -1173,7 +1173,7 @@ msgstr ""
 #: airtime_mvc/application/forms/SmartBlockCriteria.php:61
 #: airtime_mvc/application/models/Block.php:1367
 msgid "Encoded By"
-msgstr "Codificado por"
+msgstr "-z Kodetuta"
 
 #: airtime_mvc/application/controllers/LocaleController.php:84
 #: airtime_mvc/application/forms/SmartBlockCriteria.php:62
@@ -1182,7 +1182,7 @@ msgstr "Codificado por"
 #: airtime_mvc/application/services/HistoryService.php:1119
 #: airtime_mvc/application/views/scripts/schedule/show-content-dialog.phtml:10
 msgid "Genre"
-msgstr "Género"
+msgstr "Generoa"
 
 #: airtime_mvc/application/controllers/LocaleController.php:85
 #: airtime_mvc/application/forms/SmartBlockCriteria.php:63
@@ -1196,7 +1196,7 @@ msgstr "ISRC"
 #: airtime_mvc/application/models/Block.php:1370
 #: airtime_mvc/application/services/HistoryService.php:1121
 msgid "Label"
-msgstr "Sello"
+msgstr "Zigilua"
 
 #: airtime_mvc/application/controllers/LocaleController.php:87
 #: airtime_mvc/application/forms/SmartBlockCriteria.php:65
@@ -1204,7 +1204,7 @@ msgstr "Sello"
 #: airtime_mvc/application/services/HistoryService.php:1128
 #: airtime_mvc/application/views/scripts/podcast/station.phtml:32
 msgid "Language"
-msgstr "Idioma"
+msgstr "Hizkuntza"
 
 #: airtime_mvc/application/controllers/LocaleController.php:88
 #: airtime_mvc/application/forms/SmartBlockCriteria.php:66
@@ -2221,11 +2221,11 @@ msgstr "Sa"
 #: airtime_mvc/application/views/scripts/podcast/featureupgrade-pane.phtml:17
 #: airtime_mvc/application/views/scripts/schedule/add-show-form.phtml:3
 msgid "Close"
-msgstr "Cerrar"
+msgstr "Itxi"
 
 #: airtime_mvc/application/controllers/LocaleController.php:372
 msgid "Hour"
-msgstr "Hora"
+msgstr "Ordua"
 
 #: airtime_mvc/application/controllers/LocaleController.php:373
 msgid "Minute"
@@ -2375,7 +2375,7 @@ msgstr "Bienvenido al nuevo Airtime Pro!"
 
 #: airtime_mvc/application/controllers/LocaleController.php:434
 msgid "On Air"
-msgstr ""
+msgstr "AIREAN"
 
 #: airtime_mvc/application/controllers/LocaleController.php:435
 msgid "Off Air"
@@ -3168,7 +3168,7 @@ msgstr "Montaje Fuente del Show:"
 #: airtime_mvc/application/views/scripts/index/index.phtml:30
 #: airtime_mvc/application/views/scripts/login/index.phtml:3
 msgid "Login"
-msgstr "Iniciar sesión"
+msgstr "Saio-hasiera"
 
 #: airtime_mvc/application/forms/Login.php:100
 msgid "Type the characters you see in the picture below."
@@ -3688,17 +3688,17 @@ msgstr ""
 
 #: airtime_mvc/application/layouts/scripts/layout.phtml:73
 msgid "Upload"
-msgstr "Subir"
+msgstr "Igotzea"
 
 #: airtime_mvc/application/layouts/scripts/layout.phtml:81
 #: airtime_mvc/application/views/scripts/showbuilder/builderDialog.phtml:10
 #: airtime_mvc/application/views/scripts/showbuilder/index.phtml:5
 msgid "Dashboard"
-msgstr ""
+msgstr "Arbela"
 
 #: airtime_mvc/application/layouts/scripts/layout.phtml:87
 msgid "Podcasts"
-msgstr ""
+msgstr "Podcast-ak"
 
 #: airtime_mvc/application/layouts/scripts/layout.phtml:143
 #: airtime_mvc/application/layouts/scripts/layout.phtml:169
@@ -3720,7 +3720,7 @@ msgstr "Establecer Cue Out"
 
 #: airtime_mvc/application/layouts/scripts/layout.phtml:174
 msgid "Cursor"
-msgstr ""
+msgstr "Kursorea"
 
 #: airtime_mvc/application/layouts/scripts/layout.phtml:191
 msgid "Airtime Pro has a new look!"
@@ -4094,23 +4094,23 @@ msgstr "Reproducido"
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:23
 msgid "previous"
-msgstr "anterior"
+msgstr "aurrekoa"
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:28
 msgid "play"
-msgstr "reproducir"
+msgstr ""
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:32
 msgid "pause"
-msgstr "pausa"
+msgstr ""
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:37
 msgid "next"
-msgstr "siguiente"
+msgstr "hurrengoa"
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:42
 msgid "stop"
-msgstr "parar"
+msgstr "gelditu"
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:60
 #: airtime_mvc/application/views/scripts/dashboard/stream-player.phtml:90
@@ -4641,7 +4641,7 @@ msgstr "Restablecer Contraseña"
 
 #: airtime_mvc/application/views/scripts/partialviews/dashboard-sub-nav.php:18
 msgid "Webstreams"
-msgstr ""
+msgstr "Webstream-ak"
 
 #: airtime_mvc/application/views/scripts/partialviews/header.phtml:4
 msgid "Previous:"
@@ -4657,11 +4657,11 @@ msgstr "Streams fuente"
 
 #: airtime_mvc/application/views/scripts/partialviews/header.phtml:49
 msgid "ON AIR"
-msgstr ""
+msgstr "AIREAN"
 
 #: airtime_mvc/application/views/scripts/partialviews/header.phtml:50
 msgid "Listen"
-msgstr "Escuchar"
+msgstr "Entzun"
 
 #: airtime_mvc/application/views/scripts/partialviews/header.phtml:61
 msgid "Logout"
@@ -4958,7 +4958,7 @@ msgstr "Actualizar programa"
 
 #: airtime_mvc/application/views/scripts/schedule/add-show-form.phtml:10
 msgid "What"
-msgstr "Qué"
+msgstr "Zer"
 
 #: airtime_mvc/application/views/scripts/schedule/add-show-form.phtml:14
 msgid "Automatic Playlist"
@@ -4966,7 +4966,7 @@ msgstr "Lista de reproducción automática"
 
 #: airtime_mvc/application/views/scripts/schedule/add-show-form.phtml:18
 msgid "When"
-msgstr "Cuándo"
+msgstr "Noiz"
 
 #: airtime_mvc/application/views/scripts/schedule/add-show-form.phtml:32
 msgid "Live Stream Input"
