@@ -16,6 +16,7 @@ final class Application_Model_Locale
             "de_AT" => "Deutsch (Österreich)",
             "el_GR" => "Ελληνικά",
             "es_ES" => "Español",
+            "eu_ES" => "Euskera",
             "fr_FR" => "Français",
             "hr_HR" => "Hrvatski",
             "hu_HU" => "Magyar",
