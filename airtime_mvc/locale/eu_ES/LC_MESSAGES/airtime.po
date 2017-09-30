@@ -19,17 +19,17 @@ msgstr ""
 #: airtime_mvc/application/common/DateHelper.php:213
 #, php-format
 msgid "The year %s must be within the range of 1753 - 9999"
-msgstr "%s urtea 1753 - 9999aren eremuaren barruan egon behar da"
+msgstr "El año %s debe estar dentro del rango de 1753-9999"
 
 #: airtime_mvc/application/common/DateHelper.php:216
 #, php-format
 msgid "%s-%s-%s is not a valid date"
-msgstr "%s-%s-%s ez da baliozko data"
+msgstr "%s-%s-%s no es una fecha válida"
 
 #: airtime_mvc/application/common/DateHelper.php:240
 #, php-format
 msgid "%s:%s:%s is not a valid time"
-msgstr "%s:%s:%s ez da baliozko ordua"
+msgstr "%s:%s:%s no es una hora válida"
 
 #: airtime_mvc/application/common/LocaleHelper.php:26
 msgid "English"
@@ -573,7 +573,7 @@ msgstr ""
 
 #: airtime_mvc/application/common/Timezone.php:21
 msgid "Use station default"
-msgstr "Erabili irratiko lehenetsita"
+msgstr "Usar el valor predeterminado de la estación"
 
 #: airtime_mvc/application/common/UsabilityHints.php:66
 msgid "Upload some tracks below to add them to your library!"
@@ -627,7 +627,7 @@ msgstr "Parece que el próximo show está vacío. %sAñadir pistas a tu programa
 #: airtime_mvc/application/controllers/LocaleController.php:122
 #: airtime_mvc/application/views/scripts/podcast/station.phtml:6
 msgid "My Podcast"
-msgstr "Mi Podcast"
+msgstr "Gure Podcast"
 
 #: airtime_mvc/application/configs/navigation.php:25
 msgid "Radio Page"
@@ -639,7 +639,7 @@ msgstr "Egutegia"
 
 #: airtime_mvc/application/configs/navigation.php:40
 msgid "Widgets"
-msgstr ""
+msgstr "Widget-ak"
 
 #: airtime_mvc/application/configs/navigation.php:49
 #: airtime_mvc/application/views/scripts/embeddablewidgets/player.phtml:6
@@ -657,32 +657,32 @@ msgstr ""
 
 #: airtime_mvc/application/configs/navigation.php:69
 msgid "Settings"
-msgstr "Ajustes"
+msgstr "Ezarpenak"
 
 #: airtime_mvc/application/configs/navigation.php:78
 #: airtime_mvc/application/views/scripts/preference/index.phtml:2
 msgid "General"
-msgstr ""
+msgstr "Orokorra"
 
 #: airtime_mvc/application/configs/navigation.php:83
 #: airtime_mvc/application/views/scripts/form/edit-user.phtml:1
 msgid "My Profile"
-msgstr "Mi Perfil"
+msgstr "Nire profila"
 
 #: airtime_mvc/application/configs/navigation.php:89
 msgid "Users"
-msgstr "Usuarios"
+msgstr "Erabiltzaileak"
 
 #: airtime_mvc/application/configs/navigation.php:96
 msgid "Streams"
-msgstr "Streams"
+msgstr "Stream-ak"
 
 #: airtime_mvc/application/configs/navigation.php:102
 #: airtime_mvc/application/controllers/LocaleController.php:380
 #: airtime_mvc/application/controllers/LocaleController.php:381
 #: airtime_mvc/application/views/scripts/systemstatus/index.phtml:31
 msgid "Status"
-msgstr "Estado"
+msgstr "Egoera"
 
 #: airtime_mvc/application/configs/navigation.php:111
 msgid "Analytics"
@@ -728,7 +728,7 @@ msgstr "Ver Facturas"
 #: airtime_mvc/application/views/scripts/error/error-500.phtml:13
 #: airtime_mvc/application/views/scripts/error/error.phtml:14
 msgid "Help"
-msgstr "Ayuda"
+msgstr "Laguntza"
 
 #: airtime_mvc/application/configs/navigation.php:183
 msgid "Getting Started"
@@ -1099,12 +1099,12 @@ msgstr "Programado"
 #: airtime_mvc/application/controllers/LocaleController.php:73
 #: airtime_mvc/application/views/scripts/partialviews/dashboard-sub-nav.php:3
 msgid "Tracks"
-msgstr "Pistas"
+msgstr "Abestiak"
 
 #: airtime_mvc/application/controllers/LocaleController.php:74
 #: airtime_mvc/application/layouts/scripts/layout.phtml:62
 msgid "Playlist"
-msgstr "Listas de reproducción"
+msgstr "Erreprodukzio-zerrenda"
 
 #: airtime_mvc/application/controllers/LocaleController.php:75
 #: airtime_mvc/application/forms/SmartBlockCriteria.php:74
@@ -1289,7 +1289,7 @@ msgstr "Cargando..."
 #: airtime_mvc/application/controllers/LocaleController.php:409
 #: airtime_mvc/application/views/scripts/plupload/index.phtml:65
 msgid "All"
-msgstr "Todo"
+msgstr "Dena"
 
 #: airtime_mvc/application/controllers/LocaleController.php:102
 msgid "Files"
@@ -1298,16 +1298,16 @@ msgstr "Archivos"
 #: airtime_mvc/application/controllers/LocaleController.php:103
 #: airtime_mvc/application/views/scripts/partialviews/dashboard-sub-nav.php:8
 msgid "Playlists"
-msgstr "Listas"
+msgstr "Zerrendak"
 
 #: airtime_mvc/application/controllers/LocaleController.php:104
 #: airtime_mvc/application/views/scripts/partialviews/dashboard-sub-nav.php:13
 msgid "Smart Blocks"
-msgstr "Bloques"
+msgstr "Blokeak"
 
 #: airtime_mvc/application/controllers/LocaleController.php:105
 msgid "Web Streams"
-msgstr "Web streams"
+msgstr "Webstreamak"
 
 #: airtime_mvc/application/controllers/LocaleController.php:106
 msgid "Unknown type: "
@@ -1684,60 +1684,60 @@ msgstr "A este show le falta contenido.  "
 
 #: airtime_mvc/application/controllers/LocaleController.php:225
 msgid "January"
-msgstr "Enero"
+msgstr "Urtarrila"
 
 #: airtime_mvc/application/controllers/LocaleController.php:226
 msgid "February"
-msgstr "Febrero"
+msgstr "Otsaila"
 
 #: airtime_mvc/application/controllers/LocaleController.php:227
 msgid "March"
-msgstr "Marzo"
+msgstr "Martxoa"
 
 #: airtime_mvc/application/controllers/LocaleController.php:228
 msgid "April"
-msgstr "Abril"
+msgstr "Apirila"
 
 #: airtime_mvc/application/controllers/LocaleController.php:229
 #: airtime_mvc/application/controllers/LocaleController.php:241
 msgid "May"
-msgstr "Mayo"
+msgstr "Maiatza"
 
 #: airtime_mvc/application/controllers/LocaleController.php:230
 msgid "June"
-msgstr "Junio"
+msgstr "Ekaina"
 
 #: airtime_mvc/application/controllers/LocaleController.php:231
 msgid "July"
-msgstr "Julio"
+msgstr "Uztaila"
 
 #: airtime_mvc/application/controllers/LocaleController.php:232
 msgid "August"
-msgstr "Agosto"
+msgstr "Abuztua"
 
 #: airtime_mvc/application/controllers/LocaleController.php:233
 msgid "September"
-msgstr "Septiembre"
+msgstr "Iraila"
 
 #: airtime_mvc/application/controllers/LocaleController.php:234
 msgid "October"
-msgstr "Octubre"
+msgstr "Urria"
 
 #: airtime_mvc/application/controllers/LocaleController.php:235
 msgid "November"
-msgstr "Noviembre"
+msgstr "Azaroa"
 
 #: airtime_mvc/application/controllers/LocaleController.php:236
 msgid "December"
-msgstr "Diciembre"
+msgstr "Abendua"
 
 #: airtime_mvc/application/controllers/LocaleController.php:237
 msgid "Jan"
-msgstr "Ene"
+msgstr "Urt"
 
 #: airtime_mvc/application/controllers/LocaleController.php:238
 msgid "Feb"
-msgstr "Feb"
+msgstr "Ots"
 
 #: airtime_mvc/application/controllers/LocaleController.php:239
 msgid "Mar"
@@ -1745,121 +1745,121 @@ msgstr "Mar"
 
 #: airtime_mvc/application/controllers/LocaleController.php:240
 msgid "Apr"
-msgstr "Abr"
+msgstr "Api"
 
 #: airtime_mvc/application/controllers/LocaleController.php:242
 msgid "Jun"
-msgstr "Jun"
+msgstr "Eka"
 
 #: airtime_mvc/application/controllers/LocaleController.php:243
 msgid "Jul"
-msgstr "Jul"
+msgstr "Uzt"
 
 #: airtime_mvc/application/controllers/LocaleController.php:244
 msgid "Aug"
-msgstr "Ago"
+msgstr "Abu"
 
 #: airtime_mvc/application/controllers/LocaleController.php:245
 msgid "Sep"
-msgstr "Sep"
+msgstr "Ira"
 
 #: airtime_mvc/application/controllers/LocaleController.php:246
 msgid "Oct"
-msgstr "Oct"
+msgstr "Urr"
 
 #: airtime_mvc/application/controllers/LocaleController.php:247
 msgid "Nov"
-msgstr "Nov"
+msgstr "Aza"
 
 #: airtime_mvc/application/controllers/LocaleController.php:248
-msgid "Dec"
-msgstr "Dic"
+msgid "Dic"
+msgstr "Abe"
 
 #: airtime_mvc/application/controllers/LocaleController.php:249
 msgid "Today"
-msgstr "Hoy"
+msgstr "Gaur"
 
 #: airtime_mvc/application/controllers/LocaleController.php:250
 msgid "Day"
-msgstr "Día"
+msgstr "Eguna"
 
 #: airtime_mvc/application/controllers/LocaleController.php:251
 msgid "Week"
-msgstr "Semana"
+msgstr "Astea"
 
 #: airtime_mvc/application/controllers/LocaleController.php:252
 msgid "Month"
-msgstr "Mes"
+msgstr "Hilabetea"
 
 #: airtime_mvc/application/controllers/LocaleController.php:253
 #: airtime_mvc/application/forms/GeneralPreferences.php:185
 msgid "Sunday"
-msgstr "Domingo"
+msgstr "Igandea"
 
 #: airtime_mvc/application/controllers/LocaleController.php:254
 #: airtime_mvc/application/forms/GeneralPreferences.php:186
 msgid "Monday"
-msgstr "Lunes"
+msgstr "Astelena"
 
 #: airtime_mvc/application/controllers/LocaleController.php:255
 #: airtime_mvc/application/forms/GeneralPreferences.php:187
 msgid "Tuesday"
-msgstr "Martes"
+msgstr "Asteartea"
 
 #: airtime_mvc/application/controllers/LocaleController.php:256
 #: airtime_mvc/application/forms/GeneralPreferences.php:188
 msgid "Wednesday"
-msgstr "Miércoles"
+msgstr "Asteazkena"
 
 #: airtime_mvc/application/controllers/LocaleController.php:257
 #: airtime_mvc/application/forms/GeneralPreferences.php:189
 msgid "Thursday"
-msgstr "Jueves"
+msgstr "Osteguna"
 
 #: airtime_mvc/application/controllers/LocaleController.php:258
 #: airtime_mvc/application/forms/GeneralPreferences.php:190
 msgid "Friday"
-msgstr "Viernes"
+msgstr "Ostirala"
 
 #: airtime_mvc/application/controllers/LocaleController.php:259
 #: airtime_mvc/application/forms/GeneralPreferences.php:191
 msgid "Saturday"
-msgstr "Sábado"
+msgstr "Larunbata"
 
 #: airtime_mvc/application/controllers/LocaleController.php:260
 #: airtime_mvc/application/forms/AddShowRepeats.php:35
 msgid "Sun"
-msgstr "Dom"
+msgstr "Iga"
 
 #: airtime_mvc/application/controllers/LocaleController.php:261
 #: airtime_mvc/application/forms/AddShowRepeats.php:36
 msgid "Mon"
-msgstr "Lun"
+msgstr "Asl"
 
 #: airtime_mvc/application/controllers/LocaleController.php:262
 #: airtime_mvc/application/forms/AddShowRepeats.php:37
 msgid "Tue"
-msgstr "Mar"
+msgstr "Ast"
 
 #: airtime_mvc/application/controllers/LocaleController.php:263
 #: airtime_mvc/application/forms/AddShowRepeats.php:38
 msgid "Wed"
-msgstr "Mie"
+msgstr "Ask"
 
 #: airtime_mvc/application/controllers/LocaleController.php:264
 #: airtime_mvc/application/forms/AddShowRepeats.php:39
 msgid "Thu"
-msgstr "Jue"
+msgstr "Osg"
 
 #: airtime_mvc/application/controllers/LocaleController.php:265
 #: airtime_mvc/application/forms/AddShowRepeats.php:40
 msgid "Fri"
-msgstr "Vie"
+msgstr "Ost"
 
 #: airtime_mvc/application/controllers/LocaleController.php:266
 #: airtime_mvc/application/forms/AddShowRepeats.php:41
 msgid "Sat"
-msgstr "Sab"
+msgstr "Lar"
 
 #: airtime_mvc/application/controllers/LocaleController.php:267
 msgid "Shows longer than their scheduled time will be cut off by a following show."
@@ -1876,7 +1876,7 @@ msgstr "¿Detener la grabación del show actual?"
 
 #: airtime_mvc/application/controllers/LocaleController.php:270
 msgid "Ok"
-msgstr "Ok"
+msgstr "Ados"
 
 #: airtime_mvc/application/controllers/LocaleController.php:271
 msgid "Contents of Show"
@@ -1893,19 +1893,19 @@ msgstr "¿Eliminar los ítems seleccionados?"
 #: airtime_mvc/application/controllers/LocaleController.php:277
 #: airtime_mvc/application/views/scripts/schedule/show-content-dialog.phtml:5
 msgid "Start"
-msgstr "Inicio"
+msgstr "Hasiera"
 
 #: airtime_mvc/application/controllers/LocaleController.php:278
 msgid "End"
-msgstr "Final"
+msgstr "Amaiera"
 
 #: airtime_mvc/application/controllers/LocaleController.php:279
 msgid "Duration"
-msgstr "Duración"
+msgstr "Iraupena"
 
 #: airtime_mvc/application/controllers/LocaleController.php:280
 msgid "Filtering out "
-msgstr "Filtrando "
+msgstr "Iragaziz "
 
 #: airtime_mvc/application/controllers/LocaleController.php:281
 msgid " of "
@@ -2363,7 +2363,7 @@ msgstr "Vista%s de %simpresión Por favor usa tu navegador para imprimir esta ta
 
 #: airtime_mvc/application/controllers/LocaleController.php:412
 msgid "New Show"
-msgstr "Nuevo Show"
+msgstr "Saio Berria"
 
 #: airtime_mvc/application/controllers/LocaleController.php:413
 msgid "New Log Entry"
@@ -2375,7 +2375,7 @@ msgstr "Bienvenido al nuevo Airtime Pro!"
 
 #: airtime_mvc/application/controllers/LocaleController.php:434
 msgid "On Air"
-msgstr "AIREAN"
+msgstr "Airean"
 
 #: airtime_mvc/application/controllers/LocaleController.php:435
 msgid "Off Air"
@@ -4094,23 +4094,23 @@ msgstr "Reproducido"
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:23
 msgid "previous"
-msgstr "aurrekoa"
+msgstr "anterior"
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:28
 msgid "play"
-msgstr ""
+msgstr "reproducir"
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:32
 msgid "pause"
-msgstr ""
+msgstr "pausa"
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:37
 msgid "next"
-msgstr "hurrengoa"
+msgstr "siguiente"
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:42
 msgid "stop"
-msgstr "gelditu"
+msgstr "parar"
 
 #: airtime_mvc/application/views/scripts/audiopreview/audio-preview.phtml:60
 #: airtime_mvc/application/views/scripts/dashboard/stream-player.phtml:90
@@ -4207,7 +4207,7 @@ msgstr "Prueba de Tabla"
 
 #: airtime_mvc/application/views/scripts/embed/player.phtml:393
 msgid "Next"
-msgstr "Siguiente"
+msgstr "Hurrengoa"
 
 #: airtime_mvc/application/views/scripts/embed/weekly-program.phtml:87
 msgid "Looks like there are no shows scheduled on this day."
@@ -4645,11 +4645,11 @@ msgstr "Webstream-ak"
 
 #: airtime_mvc/application/views/scripts/partialviews/header.phtml:4
 msgid "Previous:"
-msgstr "Anterior:"
+msgstr "Aurrekoa:"
 
 #: airtime_mvc/application/views/scripts/partialviews/header.phtml:11
 msgid "Next:"
-msgstr "Siguiente:"
+msgstr "Hurrengoa:"
 
 #: airtime_mvc/application/views/scripts/partialviews/header.phtml:25
 msgid "Source Streams"
@@ -4665,7 +4665,7 @@ msgstr "Entzun"
 
 #: airtime_mvc/application/views/scripts/partialviews/header.phtml:61
 msgid "Logout"
-msgstr "Salir"
+msgstr "Irten"
 
 #: airtime_mvc/application/views/scripts/partialviews/trialBox.phtml:3
 msgid "Your trial expires in"
@@ -4692,7 +4692,7 @@ msgstr "Lista de reproducción vacía"
 #: airtime_mvc/application/views/scripts/playlist/playlist.phtml:52
 #: airtime_mvc/application/views/scripts/playlist/smart-block.phtml:60
 msgid "Clear"
-msgstr "Vaciar"
+msgstr "Hustu"
 
 #: airtime_mvc/application/views/scripts/playlist/playlist.phtml:60
 msgid "Fade in:  "
