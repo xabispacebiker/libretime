@@ -313,6 +313,7 @@ final class LocaleController extends Zend_Controller_Action
             "Remove selected scheduled items" => _("Remove selected scheduled items"),
             "Jump to the current playing track" => _("Jump to the current playing track"),
             "Cancel current show" => _("Cancel current show"),
+            "Columns" => _("Columns"),
             //already in schedule/schedule.js
             //"Cancel Current Show?" => _("Cancel Current Show?"),
             "Stop recording current show?" => _("Stop recording current show?"),
