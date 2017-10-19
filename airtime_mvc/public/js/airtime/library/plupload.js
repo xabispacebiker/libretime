@@ -7,7 +7,7 @@ $(document).ready(function () {
     self.IMPORT_STATUS_CODES = {
         0: {message: $.i18n._("Successfully imported")},
         1: {message: $.i18n._("Pending import")},
-        2: {message: $.i18n._("Import failed.")},
+        2: {message: $.i18n._("Import failed")},
         UNKNOWN: {message: $.i18n._("Unknown")}
     };
     if (Object.freeze) {
