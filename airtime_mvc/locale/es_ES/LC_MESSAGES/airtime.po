@@ -5054,9 +5054,17 @@ msgstr "No hay webstream"
 msgid "Couldn't connect to RabbitMQ server! Please check if the server is running and your credentials are correct."
 msgstr "¡No se pudo conectar con el servidor RabbitMQ! Comprueba si el servidor se está ejecutando y tus credenciales son correctas."
 
-#: airtime_mvc...
+#: airtime_mvc/public/js/airtime/library/plupload.js 
 msgid "Successfully imported"
 msgstr "Importado correctamente"
+
+#: airtime_mvc/public/js/airtime/library/plupload.js 
+msgid "Import failed"
+msgstr "Error de importación"
+
+#: airtime_mvc/public/js/airtime/library/plupload.js 
+msgid "Pending import"
+msgstr "Pendiente de importación"
 
 #: airtime_mvc/application/views/scripts/plupload/index.phtml
 msgid "Upload Audio Files"
