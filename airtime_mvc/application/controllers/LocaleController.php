@@ -124,6 +124,9 @@ final class LocaleController extends Zend_Controller_Action
             //library/plupload.js
             "You are currently uploading files. %sGoing to another screen will cancel the upload process. %sAre you sure you want to leave the page?"
                 => _("You are currently uploading files. %sGoing to another screen will cancel the upload process. %sAre you sure you want to leave the page?"),
+            "Successfully imported" => _("Successfully imported"),
+            "Pending import" => _("Pending import"),
+            "Import failed" => _("Import failed"),
             //library/spl.js
             "Open Media Builder" => _("Open Media Builder"),
             "please put in a time '00:00:00 (.0)'" => _("please put in a time '00:00:00 (.0)'"),
