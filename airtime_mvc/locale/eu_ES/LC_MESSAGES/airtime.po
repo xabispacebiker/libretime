@@ -5051,23 +5051,23 @@ msgstr "¡No se pudo conectar con el servidor RabbitMQ! Comprueba si el servidor
 
 #: airtime_mvc/public/js/airtime/library/plupload.js 
 msgid "Successfully imported"
-msgstr "Importado correctamente"
+msgstr "Arrakastaz inportatuta"
 
 #: airtime_mvc/public/js/airtime/library/plupload.js 
 msgid "Import failed"
-msgstr "Error de importación"
+msgstr "Huts egindako inportazioa"
 
 #: airtime_mvc/public/js/airtime/library/plupload.js 
 msgid "Pending import"
-msgstr "Pendiente de importación"
+msgstr "Inportazioaren zain"
 
 #: airtime_mvc/application/views/scripts/plupload/index.phtml
 msgid "Upload Audio Files"
-msgstr "Subir archivos de audio"
+msgstr "Audio Fitxategiak Igo"
 
 #: airtime_mvc/application/views/scripts/plupload/index.phtml
 msgid "Storage"
-msgstr "Almacenamiento"
+msgstr "Biltegiratzea"
 
 #: airtime_mvc/public/js/airtime/library/library.js
 msgid "Click 'Add' to create one."
