@@ -113,7 +113,7 @@ $(document).ready(function () {
             "bPaginate": true,
             "sPaginationType": "full_numbers",
             "oLanguage": getDatatablesStrings({
-                "sEmptyTable": $.i18n._("No files have been uploaded yet."),
+                "sEmptyTable": $.i18n._("No files have been uploaded yet"),
                 "sInfoEmpty": $.i18n._("Showing 0 to 0 of 0 uploads"),
                 "sInfo": $.i18n._("Showing _START_ to _END_ of _TOTAL_ uploads"),
                 "sInfoFiltered": $.i18n._("(filtered from _MAX_ total uploads)"),
