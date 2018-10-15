@@ -5066,6 +5066,10 @@ msgstr "Error de importación"
 msgid "Pending import"
 msgstr "Pendiente de importación"
 
+#: airtime_mvc/public/js/airtime/library/plupload.js
+msgid "No files have been uploaded yet"
+msgstr "No se han subido audios todavía"
+
 #: airtime_mvc/application/views/scripts/plupload/index.phtml
 msgid "Upload Audio Files"
 msgstr "Subir archivos de audio"
