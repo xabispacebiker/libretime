@@ -127,6 +127,7 @@ final class LocaleController extends Zend_Controller_Action
             "Successfully imported" => _("Successfully imported"),
             "Pending import" => _("Pending import"),
             "Import failed" => _("Import failed"),
+            "No files have been uploaded yet" => _("No files have been uploaded yet"),
             //library/spl.js
             "Open Media Builder" => _("Open Media Builder"),
             "please put in a time '00:00:00 (.0)'" => _("please put in a time '00:00:00 (.0)'"),
